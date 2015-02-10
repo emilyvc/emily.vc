@@ -8,10 +8,10 @@ require './config/slack'
 # Setup WordPress
 ############################################
 
-set :wp_user, "yourname" # The admin username
-set :wp_email, "yourname@example.com" # The admin email address
-set :wp_sitename, "WP Deploy" # The site title
-set :wp_localurl, "http://wpdeploy" # Your local environment URL
+set :wp_user, "emilycressey" # The admin username
+set :wp_email, "e.cressey@mixd.co.uk" # The admin email address
+set :wp_sitename, "emilyvc" # The site title
+set :wp_localurl, "http://emilyvc.dev" # Your local environment URL
 
 ############################################
 # Setup project
@@ -27,7 +27,7 @@ set :git_strategy, SubmoduleStrategy
 # Setup Capistrano
 ############################################
 
-set :log_level, :info
+set :log_level, :DEBUG
 set :use_sudo, false
 
 set :ssh_options, {
