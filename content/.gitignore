@@ -1,0 +1,20 @@
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+database.yml
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Misc #
+###################
+
+_assets
+node_modules
+ai-cache/*

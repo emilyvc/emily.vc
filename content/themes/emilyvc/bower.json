@@ -1,0 +1,10 @@
+{
+  "name": "yourtheme",
+  "version": "1.2.0",
+  "dependencies": {
+    "modernizr": "~2.7.2",
+    "jquery": "~2.1.0",
+    "griddle": "~0.3.0",
+    "normalize-scss": "~3.0.1"
+  }
+}

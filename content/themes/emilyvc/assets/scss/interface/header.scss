@@ -1,0 +1,17 @@
+.header-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.header {
+    margin: 0 auto;
+    background-color: color-white;
+    padding: 3em;
+}
+
+.header__title {
+   text-align: center;
+   @extend .font--lust;
+}

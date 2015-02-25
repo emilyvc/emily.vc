@@ -1,0 +1,50 @@
+/**
+ * Title:
+ *    Navigation Module
+ * Description:
+ *    The .nav module and its extensions
+ * Sections:
+ *    $. Setup
+ *    $. Component
+ *    $. Modifications
+ */
+
+
+
+/* $. Setup
+\*----------------------------------------------------------------*/
+
+// Any setup goes here
+
+
+
+/* $. Component
+\*----------------------------------------------------------------*/
+
+.nav {
+    @extend %cf;
+    @extend .list--unset;
+}
+
+.nav-container {
+    margin: 0 auto;
+}
+
+
+/* $. Modifications
+\*----------------------------------------------------------------*/
+
+.nav--primary {
+    text-align: center;
+
+    li {
+        margin: 0 auto;
+        display: inline;
+    }
+
+    a {
+        padding-right: 1em;
+        color: #ffffff;
+    }
+}
+.nav--secondary {}
