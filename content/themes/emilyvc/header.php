@@ -9,7 +9,7 @@
 
     <title><?php wp_title( '', true, 'right' ); ?><?php if ( ! is_front_page() ): ?>| <?php bloginfo( 'name' ); ?><?php endif; ?></title>
     <meta name="description" content="">
-    <link rel="canonical" href="http://www.redkitewaste.co.uk" />
+    <link rel="canonical" href="http://www.emily.vc" />
 
     <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/favicons/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/favicons/favicon.ico" type="image/x-icon" />
@@ -23,12 +23,10 @@
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/ie.css" media="screen">
     <![endif]-->
 
+    <!-- Grunticon fallback if no JS -->
     <noscript><link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/grunticon/icons.fallback.css" rel="stylesheet"></noscript>
 
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/min/head.min.js"></script>
-
-    <script src="//use.typekit.net/xyo1bjk.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
 
     <?php wp_head(); ?>
 </head>
@@ -39,9 +37,9 @@
             <p class="profile__subtitle">Front-end Developer &amp; Designer</p>
             <div class="social">
                 <ul class="social__list">
-                    <li><i class="icon icon--medium icon--twitter"></i></li>
-                    <li><i class="icon icon--medium icon--dribbble"></i></li>
-                    <li><i class="icon icon--medium icon--facebook"></i></li>
+                    <a href="mailto:hi@emily.vc"><li><i class="icon icon--medium icon--mail"></i></li></a>
+                    <a href="http://twitter.com/emilyvc_"><li><i class="icon icon--medium icon--twitter"></i></li></a>
+                    <a href="http://dribbble.com/emilyvc_"><li><i class="icon icon--medium icon--dribbble"></i></li></a>
                 </ul>
             </div>
         </div>

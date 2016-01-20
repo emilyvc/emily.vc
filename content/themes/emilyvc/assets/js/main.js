@@ -25,5 +25,5 @@
 
 /* $. Grunticon Load
 \*----------------------------------------------------------------*/
-grunticon([ "/content/themes/emilyvc/assets/grunticon/icons.data.svg.css", "/content/themes/emilyvc/assets/grunticon/icons.data.png.css", "/content/themes/emilyvc/assets/grunticon/icons.fallback.css" ]);
+grunticon([ "content/themes/emilyvc/assets/grunticon/icons.data.svg.css", "content/themes/emilyvc/assets/grunticon/icons.data.png.css", "content/themes/emilyvc/assets/grunticon/icons.fallback.css" ]);
 

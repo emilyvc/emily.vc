@@ -9,28 +9,43 @@
     width: 100%;
     background-image: url('../../../emilyvc/assets/img/profile-cutout.png');
     background-repeat: no-repeat;
-    background-position: 30% 0;
+    background-position: 20% 0;
 }
 
 .profile {
     margin: 0 auto;
     text-align: center;
     position: absolute;
+    padding: 0 $baseline;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
 
+    @include respond-min($bp3) {
+        padding: 0;
+    }
+
 }
 
 .profile__title {
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: uppercase;
-    letter-spacing: $baseline/6;
-    margin-bottom: $baseline/6;
+    letter-spacing: $baseline/7;
+    margin-bottom: $baseline/3;
+    line-height: 1.1;
+
+    @include respond-min($bp3) {
+        font-size: 5rem;
+        margin-bottom: $baseline/6;
+    }
 }
 
 .profile__subtitle {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
+    margin-bottom: $baseline*1.7;
+    @include respond-min($bp3) {
+        font-size: 2.2rem;
+    }
 }
 
 .social__list {
@@ -38,5 +53,7 @@
 
     li {
         display: inline-block;
+        margin-right: $baseline;
+        opacity: .85;
     }
 }
