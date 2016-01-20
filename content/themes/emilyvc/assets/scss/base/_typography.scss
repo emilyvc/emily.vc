@@ -25,6 +25,7 @@ blockquote, pre, p, ul, ol, dl, hr {
 p, ul, ol, dl, hr, form, table, blockquote, pre {
     margin-bottom: $baseline;
     color: #ffffff;
+    font-family: $font-serif;
 }
 
 ul > :last-child,

@@ -1,17 +1,42 @@
-.header-container {
+.holder-bg {
+    background-color: $color-brand;
+    height: 100vh;
+}
+
+.site-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../../emilyvc/assets/img/profile-cutout.png');
+    background-repeat: no-repeat;
+    background-position: 30% 0;
+}
+
+.profile {
     margin: 0 auto;
     text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+
 }
 
-
-
-.header {
-    margin: 0 auto;
-    background-color: color-white;
-    padding: 3em;
+.profile__title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: $baseline/6;
+    margin-bottom: $baseline/6;
 }
 
-.header__title {
-   text-align: center;
-   @extend .font--lust;
+.profile__subtitle {
+    font-size: 2.2rem;
+}
+
+.social__list {
+    @extend .list--unset;
+
+    li {
+        display: inline-block;
+    }
 }

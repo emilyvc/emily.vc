@@ -29,26 +29,3 @@
 /* $. Your Styles
 \*----------------------------------------------------------------*/
 
-.holder-bg {
-    background-color: $color-brand;
-    height: 865px;
-}
-
-.site-container {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background-image: url('../../../emilyvc/assets/img/profile-cutout.png');
-    background-repeat: no-repeat;
-    background-position: 30% 0;
-}
-
-.profile {
-    margin: 0 auto;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-
-}

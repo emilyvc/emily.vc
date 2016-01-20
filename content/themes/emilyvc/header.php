@@ -35,10 +35,14 @@
 <body class="holder-bg">
     <div class="site-container">
         <div class="profile">
-            <h1 class="header__title zero-bottom">Emily Cressey</h1>
-            <p>Web developer and designer currently working at <a href="www.mixd.co.uk">@mixd</a>
+            <h1 class="profile__title">Emily Cressey</h1>
+            <p class="profile__subtitle">Front-end Developer &amp; Designer</p>
             <div class="social">
-                
+                <ul class="social__list">
+                    <li><i class="icon icon--medium icon--twitter"></i></li>
+                    <li><i class="icon icon--medium icon--dribbble"></i></li>
+                    <li><i class="icon icon--medium icon--facebook"></i></li>
+                </ul>
             </div>
         </div>
     </div>

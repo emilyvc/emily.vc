@@ -36,8 +36,24 @@ $color-brand: #dd7f7e;
 /* $. Typography
 \*----------------------------------------------------------------*/
 
-$font-sans: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-$font-serif: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  @font-face {
+      font-family: 'millerregular';
+      src: url('../fonts/millertextroman-webfont.eot');
+      src: url('fonts/millertextroman-webfont.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/millertextroman-webfont.woff2') format('woff2'),
+           url('../fonts/millertextroman-webfont.woff') format('woff'),
+           url('../fonts/millertextroman-webfont.ttf') format('truetype'),
+           url('../fonts/millertextroman-webfont.svg#millerregular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+
+$font-sans: 'Montserrat', Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+$font-serif: 'millerregular', "Palatino Linotype", Palatino, Palladio;
 
 
 
@@ -56,3 +72,13 @@ $z-index-2: 5;
 $z-index-3: 10;
 $z-index-4: 15;
 $z-index-5: 20;
+
+
+/* $. Icons
+\*----------------------------------------------------------------*/
+
+$icon: 20px;
+$icon-small: 16px;
+$icon-medium: 25px;
+$icon-large: 50px;
+$icon-x-large: 100px;
