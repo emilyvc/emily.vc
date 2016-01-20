@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: $baseline;
     line-height: 1.2;
+    color: #ffffff;
 }
 
 blockquote, pre, p, ul, ol, dl, hr {
@@ -23,6 +24,7 @@ blockquote, pre, p, ul, ol, dl, hr {
 
 p, ul, ol, dl, hr, form, table, blockquote, pre {
     margin-bottom: $baseline;
+    color: #ffffff;
 }
 
 ul > :last-child,

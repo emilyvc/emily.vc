@@ -32,23 +32,13 @@
 
     <?php wp_head(); ?>
 </head>
-<body class="debug">
-
-<div class="site-wrap">
-    <header class="header" role="banner">
-        <div class="container header-container">
+<body class="holder-bg">
+    <div class="site-container">
+        <div class="profile">
             <h1 class="header__title zero-bottom">Emily Cressey</h1>
             <p>Web developer and designer currently working at <a href="www.mixd.co.uk">@mixd</a>
-            
-            <a href="#" class="nav__toggle js-nav-toggle" role="button" aria-label="Toggle Navigation">
-                <i class="icon--nav"></i> <span class="hidden">Menu</span>
-            </a>
-
-            <nav class="header__nav | nav-container" id="nav" role="navigation">
-               <ul class="nav--primary">
-                   <li><a href="/work">Projects</a>
-                   <li><a href="/work">Photography</a>
-               </ul>
-            </nav>
+            <div class="social">
+                
+            </div>
         </div>
-    </header>
+    </div>
