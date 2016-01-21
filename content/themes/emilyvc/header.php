@@ -30,7 +30,7 @@
 
     <?php wp_head(); ?>
 </head>
-<body class="holder-bg">
+<body class="holder-bg debug">
     <div class="site-container">
         <div class="profile">
             <h1 class="profile__title">Emily Cressey</h1>
