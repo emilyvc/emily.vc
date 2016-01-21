@@ -17,8 +17,8 @@ set :wp_localurl, "http://emilyvc.dev" # Your local environment URL
 # Setup project
 ############################################
 
-set :application, "wp-deploy"
-set :repo_url, "git@github.com:Mixd/wp-deploy.git"
+set :application, "emily.vc"
+set :repo_url, "git@github.com:emilyvc/emily.vc.git"
 set :scm, :git
 
 set :git_strategy, SubmoduleStrategy
