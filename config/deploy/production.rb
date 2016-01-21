@@ -3,9 +3,9 @@
 ############################################
 
 set :stage, :production
-set :stage_url, "http://www.emilyvc.me"
-server "windermere-01.mixd.co.uk", user: "mixdsftpuser", roles: %w{web app db}
-set :deploy_to, "/var/www/vhosts/emilyvc.me/httpdocs"
+set :stage_url, "http://www.emily.vc"
+server "buttermere-01.mixd.co.uk", user: "mixdsftpuser", roles: %w{web app db}
+set :deploy_to, "/var/www/vhosts/emily.vc/httpdocs"
 
 ############################################
 # Setup Git
