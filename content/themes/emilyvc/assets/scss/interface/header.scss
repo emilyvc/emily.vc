@@ -9,7 +9,8 @@
     width: 100%;
     background-image: url('../../../emilyvc/assets/img/profile-cutout.png');
     background-repeat: no-repeat;
-    background-position: 20% 0;
+    background-attachment: fixed;
+    background-position: 20% bottom;
 }
 
 .profile {
