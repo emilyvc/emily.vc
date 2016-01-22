@@ -17,7 +17,7 @@ set :wp_localurl, "http://emilyvc.dev" # Your local environment URL
 # Setup project
 ############################################
 
-set :application, "emily.vc"
+set :application, "emilyvc"
 set :repo_url, "git@github.com:emilyvc/emily.vc.git"
 set :scm, :git
 
