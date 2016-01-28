@@ -3,7 +3,7 @@
 ############################################
 
 set :stage, :production
-set :stage_url, "http://www.emily.vc"
+set :stage_url, "http://emily.vc"
 server "buttermere-01.mixd.co.uk", user: "mixdsftpuser", roles: %w{web app db}
 set :deploy_to, "/var/www/vhosts/emily.vc/httpdocs"
 
