@@ -19,8 +19,8 @@
     min-width: 15em; // 240px
     max-width: 68.5em; // 1233px 
 
-    @include respond-min($bp1) {
-        width: 85%;
+    @include respond-min($bp4) {
+        width: 75%;
     }
 }
 

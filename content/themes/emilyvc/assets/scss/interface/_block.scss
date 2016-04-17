@@ -1,7 +1,17 @@
+.block-container {
+    padding-top: $baseline*2.5;
+    padding-bottom: $baseline*2;
+}
+
 .block {
     padding-bottom: $baseline*2;
 }
 
 .block__title {
     margin-bottom: $baseline/3;
+}
+
+.divider {
+    border-bottom: 1px solid $color-brand;
+    margin-bottom: $baseline;
 }

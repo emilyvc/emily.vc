@@ -57,3 +57,14 @@
         font-size: 3.5rem;
     }
 }
+
+.subheading {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: $font-sans;
+    margin-bottom: $baseline/3;
+}
+
+.subheading--brand {
+    color: $color-brand;
+}

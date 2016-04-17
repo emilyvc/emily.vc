@@ -52,6 +52,11 @@
         letter-spacing: 1px;
         font-size: .8rem;
 
+        &:hover,
+        &:active {
+            color: darken($color-brand, 10%);
+        }
+
     }
 }
 

@@ -14,7 +14,7 @@ Template Name: Portfolio
             <div class="block">
                 <div class="grid__cell unit-12-12--bp3">
                     <a href="http://www.wearespoke.co.uk/"><h1 class="block__title beta">Spoke</h1></a>
-                    <p>Spoke are a communications agency based in London, I worked with Spoke as they started to build their new business, they wanted an engaging site that would drive. This was my first site I designed and developed single handley.</p>
+                    <p>Spoke are a communications agency based in London, they wanted an engaging site that would be a platform to help build their new business. This was my first site I designed and developed single handley.</p>
                 </div>
             </div>
             <div class="block">
@@ -30,11 +30,36 @@ Template Name: Portfolio
                 </div>
                 </div>
             <div class="block">
-            <div class="grid__cell unit-12-12--bp3">
+                <div class="grid__cell unit-12-12--bp3">
                     <a href=""><h1 class="block__title beta">FFCLM</h1></a>
                     <p>At Mixd we work with a large amount of public sectors ana handful of NHS sites such as ULH.  I’ve been lucky enough to be part of developing these sites as well as helping the design process along the way.</p>
                 </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <h2 class="subheading subheading--brand zeta u-align-left">Speaking opportunities</h2>
+        <div class="block-container">
+            <div class="grid">
+                <div class="grid__cell unit-4-12--bp2">
+                    <div class="block">
+                        <h1 class="block__title beta">Forefront Leeds</h1>
+                        <p class="subheading zeta">Confessions of a first year web dev</p>
+                    </div>
                 </div>
+                <div class="grid__cell unit-4-12--bp2">
+                    <div class="block">
+                        <h1 class="block__title beta">Leeds University</h1>
+                        <p class="subheading zeta">Team roles – Undergraduate</p>
+                        <p class="subheading zeta">Team roles – Postgraduate</p>
+                    </div>
+                </div>
+                <div class="grid__cell unit-4-12--bp2">
+                    <div class="block">
+                        <h1 class="block__title beta">Teeside University</h1>
+                        <p class="subheading zeta">Design &amp; the web</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
         <?php endwhile; ?>
