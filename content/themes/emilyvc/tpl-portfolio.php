@@ -26,7 +26,7 @@ Template Name: Portfolio
             <div class="block">
             <div class="grid__cell unit-12-12--bp3">
                     <a href="https://www.ulh.nhs.uk/"><h1 class="block__title beta">NHS United Lincolnshire Hospital</h1></a>
-                    <p>At <a href="http://www.mixd.co.uk/">Mixd</a> we work with a large amount of public sectors ana handful of NHS sites such as ULH.  I’ve been lucky enough to be part of developing these sites as well as helping the design process along the way.</p>
+                    <p>At <a href="http://www.mixd.co.uk/">Mixd</a> we work with a large amount of public sectors ana handful of NHS sites such as ULH.  I’ve been lucky enough to be part of developing these sites as well as helping some the design process along the way.</p>
                 </div>
                 </div>
             <div class="block">

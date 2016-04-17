@@ -11,15 +11,28 @@
 
 
 .profile__img {
-    margin: 0;
+    margin: 0 auto;
     display: block;
     width: 15em;
     height: 15em;
+    border-radius: 50%;
+
+    @include respond-min($bp1) {
+        width: 8em;
+        height: 8em;
+        margin: 0;
+    }
+
+    @include respond-min($bp2) {
+        width: 10em;
+        height: 10em;
+        margin: 0;
+    }
 
     @include respond-min($bp3) {
-        border-radius: 50%;
         width: auto;
         height: auto;
+        margin: 0;
     }
 }
 
@@ -35,6 +48,10 @@
 .profile__heading {
     margin-bottom: $baseline/3;
     line-height: 1.1;
+
+    @include respond-min($bp2) {        
+        font-size: 2.8rem;
+    }
 
     @include respond-min($bp3) {        
         font-size: 3.5rem;

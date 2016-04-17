@@ -12,13 +12,20 @@
 }
 
 .footer--home {
-    position: absolute;
-    bottom: $baseline;
+    @include respond-min($bp1) {
+        position: absolute;
+        bottom: $baseline;
+    }
 }
 
 .footer__links {
   float: left;
   width: 50%;
+  opacity: .6;
+}
+
+.footer__link {
+    margin-right: $baseline;
 }
 
 .footer__email {

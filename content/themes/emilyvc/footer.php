@@ -8,9 +8,9 @@
         <div class="footer__container">
             <div class="footer__links">
                 <ul>
-                    <li class="icon icon--medium icon--dribbble"></li>
-                    <li class="icon icon--medium icon--twitter"></li>
-                    <li class="icon icon--medium icon--git"></li>
+                    <a href="" class="footer__link"><li class="icon icon--medium icon--dribbble"></li></a>
+                    <a href="" class="footer__link"><li class="icon icon--medium icon--twitter"></li></a>
+                   <!--  <a href="" class="footer__link"><li class="icon icon--medium icon--git"></li></a> -->
                 </ul>
             </div>
             <div class="footer__email">

@@ -26,12 +26,24 @@
 
 .container--main {
     text-align: center;
-    width: 60%;
-    margin: 0 auto;
     margin-top: $baseline*3;
-    margin-bottom: $baseline*2;
+    margin-bottom: $baseline;
+
+    @include respond-min($bp3) {
+       width: 60%;
+       margin: 0 auto;
+       padding-bottom: $baseline*2;
+       padding-top: $baseline*2;
+    }
 }
 
+.container--home {
+    margin-top: $baseline*2;
+
+    @include respond-min($bp3) {
+        margin-top: 0;
+    }
+}
 
 /* $. Your Styles
 \*----------------------------------------------------------------*/
