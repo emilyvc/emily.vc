@@ -1,0 +1,42 @@
+.profile {
+    padding: 0 1em;
+    width: 100%;
+    max-width: 100%;
+
+    @include respond-min($bp3) {
+        margin-top: $baseline*5;
+    } 
+
+}
+
+
+.profile__img {
+    margin: 0;
+    display: block;
+    width: 15em;
+    height: 15em;
+
+    @include respond-min($bp3) {
+        border-radius: 50%;
+        width: auto;
+        height: auto;
+    }
+}
+
+.profile__bio {
+    margin-top: 2em;
+    margin-bottom: 3em;
+
+    @include respond-min($bp3) {
+        margin: 0;
+    }
+}
+
+.profile__heading {
+    margin-bottom: $baseline/3;
+    line-height: 1.1;
+
+    @include respond-min($bp3) {        
+        font-size: 3.5rem;
+    }
+}

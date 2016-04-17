@@ -27,7 +27,7 @@
 }
 
 .nav-container {
-    margin: 0 auto;
+    padding: $baseline*2 0;
 }
 
 
@@ -37,14 +37,24 @@
 .nav--primary {
     text-align: center;
 
+    @include respond-min($bp2) {
+        text-align: right;
+    }
+
     li {
-        margin: 0 auto;
-        display: inline;
+        margin-right: $baseline;
+        display: inline-block;
     }
 
     a {
-        padding-right: 1em;
-        color: #ffffff;
+        color: $color-brand;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: .8rem;
+
     }
 }
-.nav--secondary {}
+
+.active {
+    border-bottom: 1px solid $color-brand;
+}

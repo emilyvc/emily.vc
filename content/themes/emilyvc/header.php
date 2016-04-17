@@ -30,17 +30,15 @@
 
     <?php wp_head(); ?>
 </head>
-<body class="holder-bg">
-    <div class="site-container">
-        <div class="profile">
-            <h1 class="profile__title">Emily Cressey</h1>
-            <p class="profile__subtitle">Front-end Developer &amp; Designer</p>
-            <div class="social">
-                <ul class="social__list">
-                    <a href="mailto:hi@emily.vc"><li><i class="icon icon--medium icon--mail"></i></li></a>
-                    <a href="http://twitter.com/emilyvc_"><li><i class="icon icon--medium icon--twitter"></i></li></a>
-                    <a href="http://dribbble.com/emilyvc_"><li><i class="icon icon--medium icon--dribbble"></i></li></a>
-                </ul>
-            </div>
+
+<body class="holder-bg debug">
+    <div class="container">
+        <div class="nav-container">
+            <nav class="nav nav--primary">
+
+                <li class="<?php if(is_front_page()): echo 'active'; endif; ?>"><a href="/">Bio</a></li>
+                <li class="<?php if(is_page(4)): echo 'active'; endif; ?>"><a href="/portfolio">Portfolio</a></li>
+                <li><a href="">CV</a></li>
+            </nav>
         </div>
     </div>

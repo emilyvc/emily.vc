@@ -15,7 +15,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: $baseline;
     line-height: 1.2;
-    color: #ffffff;
+    font-family: $font-serif;
+    font-weight: normal;
 }
 
 blockquote, pre, p, ul, ol, dl, hr {
@@ -25,7 +26,7 @@ blockquote, pre, p, ul, ol, dl, hr {
 
 p, ul, ol, dl, hr, form, table, blockquote, pre {
     margin-bottom: $baseline;
-    color: #ffffff;
+    color: #636363;
     font-family: $font-serif;
 }
 
@@ -36,10 +37,6 @@ blockquote > :last-child {
     margin-bottom: 0;
 }
 
-.font--lust {
-    font-family: lust-script;
-    font-size: 4em;
-}
 
 /* $. Headings and Common Styles
 \*----------------------------------------------------------------*/
@@ -49,7 +46,10 @@ h1, .alpha {
 }
 
 h2, .beta {
-    font-size: 1.875rem;
+    font-size: 1.6rem;
+     @include respond-min($bp3) {
+        font-size: 1.875rem;
+     }
 }
 
 h3, .gamma {
@@ -75,4 +75,14 @@ h6, .zeta {
 .headline {
     border-bottom: 1px solid darken($color-white, 10%);
     padding-bottom: .45em;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+
+    a {
+        color: $color-brand;
+        border-bottom: 1px solid $color-brand;
+    }
 }

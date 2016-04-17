@@ -1,0 +1,52 @@
+.footer__container {
+    border-top: 1px solid $color-brand;
+    padding: $baseline 0;
+}
+
+.footer {
+    width: 100%;
+    @include respond-min($bp3) {
+        bottom: $baseline;
+        left: 0;
+    }
+}
+
+.footer--home {
+    position: absolute;
+    bottom: $baseline;
+}
+
+.footer__links {
+  float: left;
+  width: 50%;
+}
+
+.footer__email {
+    float: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: .6;
+    font-size: .8rem;
+}
+
+.profile__subtitle {
+    font-size: 1.9rem;
+    margin-bottom: $baseline*1.7;
+    @include respond-min($bp5) {
+        font-size: 2.2rem;
+    }
+}
+
+.social__list {
+    @extend .list--unset;
+
+    li {
+        display: inline-block;
+        margin-right: $baseline;
+        opacity: .85;
+    }
+}
+
+.profile__img {
+    border-radius: 50%;
+}
