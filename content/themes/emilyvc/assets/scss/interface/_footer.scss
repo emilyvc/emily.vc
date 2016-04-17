@@ -1,5 +1,5 @@
 .footer__container {
-    border-top: 1px solid $color-brand;
+    border-top: 1px solid lighten($color-brand, 40%);
     padding: $baseline 0;
 }
 
@@ -21,7 +21,7 @@
 .footer__links {
   float: left;
   width: 50%;
-  opacity: .6;
+  opacity: .4;
 }
 
 .footer__link {

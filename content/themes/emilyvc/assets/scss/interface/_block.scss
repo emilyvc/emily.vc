@@ -12,6 +12,6 @@
 }
 
 .divider {
-    border-bottom: 1px solid $color-brand;
+    border-top: 1px solid lighten($color-brand, 25%);
     margin-bottom: $baseline;
 }

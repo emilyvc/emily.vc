@@ -66,5 +66,5 @@
 }
 
 .subheading--brand {
-    color: $color-brand;
+    color: lighten($color-brand, 20%);
 }
