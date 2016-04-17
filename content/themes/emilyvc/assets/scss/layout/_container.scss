@@ -19,7 +19,7 @@
     min-width: 15em; // 240px
     max-width: 68.5em; // 1233px 
 
-    @include respond-min($bp4) {
+    @include respond-min($bp2) {
         width: 75%;
     }
 }
@@ -29,7 +29,7 @@
     margin-top: $baseline*3;
     margin-bottom: $baseline;
 
-    @include respond-min($bp3) {
+    @include respond-min($bp4) {
        width: 60%;
        margin: 0 auto;
        padding-bottom: $baseline*2;

@@ -1,4 +1,4 @@
-<?php if(!is_page(4)): ?>
+<?php if(is_front_page()): ?>
     <footer class="footer footer--home">
 <?php else: ?>
     <footer class="footer">

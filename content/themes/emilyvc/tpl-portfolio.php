@@ -10,6 +10,7 @@ Template Name: Portfolio
     <?php while ( have_posts() ) : the_post(); ?>
  
     <div class="container container--main">
+        <h1 class="u-align-left">I've worked on a few things...</h1>
         <div class="grid">
             <div class="block">
                 <div class="grid__cell unit-12-12--bp3">
@@ -31,7 +32,7 @@ Template Name: Portfolio
                 </div>
             <div class="block">
                 <div class="grid__cell unit-12-12--bp3">
-                    <a href=""><h1 class="block__title beta">FFCLM</h1></a>
+                    <a href="/portfolio/ffclm"><h1 class="block__title beta">FFCLM</h1></a>
                     <p>At Mixd we work with a large amount of public sectors ana handful of NHS sites such as ULH.  I’ve been lucky enough to be part of developing these sites as well as helping the design process along the way.</p>
                 </div>
             </div>
