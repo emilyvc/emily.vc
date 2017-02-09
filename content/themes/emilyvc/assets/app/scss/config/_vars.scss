@@ -1,0 +1,95 @@
+/**
+ * Title:
+ *    Variables
+ * Description:
+ *    Project variables go here
+ * Sections:
+ *    $. Breakpoints
+ *    $. Colours
+ *    $. Typography
+ *    $. Layout
+ *    $. Icons
+ *    $. Z axis
+ */
+
+
+
+/* $. Breakpoints
+\*----------------------------------------------------------------*/
+
+$bp1: 30em;
+$bp2: 48em;
+$bp3: 63em;
+$bp4: 78em;
+$bp5: 87em;
+
+
+
+/* $. Colours
+\*----------------------------------------------------------------*/
+
+/**
+ * Base colours
+ */
+
+/* defaults */
+$white:               #FFFFFF;
+$black:               #000000;
+
+/* shades */
+$grey:                #888888;
+$grey-dark:           #3C3C3C;
+$grey-light:          #CCCCCC;
+$grey-lighter:        #F1F1F1;
+
+/* primary */
+$pink:            #E44A66;
+$green:           #9BFFE8; 
+
+  
+/* shades */
+$color-text:          $grey-dark;
+$color-link:          $green;
+
+
+
+
+
+/* $. Typography
+\*----------------------------------------------------------------*/
+
+$font: "semplicitapro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+
+$weight-normal:  300;
+$weight-medium:  500;
+$weight-bold:    700;
+
+
+
+/* $. Layout
+\*----------------------------------------------------------------*/
+
+$base: 1em;
+
+
+
+/* $. Icons
+\*----------------------------------------------------------------*/
+
+$icon: 20px;
+$icon-small: 16px;
+$icon-medium: 32px;
+$icon-large: 45px;
+$icon-xlarge: 90px;
+
+
+
+/* $. Z axis
+\*----------------------------------------------------------------*/
+
+$z-index-0: -1;
+$z-index-1: 1;
+$z-index-2: 5;
+$z-index-3: 10;
+$z-index-4: 15;
+$z-index-5: 20;

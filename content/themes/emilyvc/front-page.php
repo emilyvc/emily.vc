@@ -1,20 +1,43 @@
-<?php get_header(); ?>
+<?php
 
-<div class="grid">
-    <div class="profile">
-        <div class="container container--home">
-            <div class="grid__cell unit-6-12--bp3">
-                <img src="<?php get_stylesheet_directory_uri(); ?>/content/themes/emilyvc/assets/img/profile-img.jpg" alt="" class="profile__img">
+/**
+ ***************************************************************************
+ * Front Page Template
+ ***************************************************************************
+ *
+ * This template is used to show the front page of a WordPress website,
+ * regardless of whether or not its a Static Page or Posts landing.
+ * More info can be found here:
+ * http://codex.wordpress.org/Creating_a_Static_Front_Page
+ *
+ */
+
+
+
+// Get the header
+get_header();
+
+?>
+
+<main>
+    <div class="section section--head">
+        <div class="container">
+            <div class="header">
+                <a href="" class='header__logo | icon icon--large icon--logo'></a>
+                <a href="" class='header__mail | icon icon--large icon--mail'></a>
             </div>
-            <div class="grid__cell unit-6-12--bp3">
-                <div class="profile__bio">
-                    <h1 class="profile__heading">Hi, I'm Emily</h1>
-                    <h2>I’m a designer and front-end developer based in Leeds, UK.</h2>
-                    <p>I’ve been working in industry for two years and counting, through this time I’ve been working with creative web design agency <a href="http://www.mixd.co.uk">Mixd</a> who took me under their wing straight out of university. You can see what I’ve got upto on my <a href="/portfolio">portfolio</a> or visit me on <a href="">Twitter</a> or <a href="">Dribbble</a>.</p>
+            <div class="section__intro">
+                <div class="section__container">
+                    <h1 class="section__heading">Hi, I'm a designer</h1>
+                    <ul class="list list--unset | section__list">
+                         <li><a href="">Twitter</a></li>
+                         <li><a href="">Dribbble</a></li>
+                         <li><a href="">Instagram</a></li> 
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</main>
 
 <?php get_footer(); ?>

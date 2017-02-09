@@ -1,0 +1,112 @@
+/**
+ * Title:
+ *    Panels
+ * Description:
+ *    Used to provide emphasis for a section of content
+ * Sections:
+ *    $. Setup
+ *    $. Component
+ *    $. Themes
+ *    $. Sizing
+ *    $. Grid
+ */
+
+
+
+/* $. Setup
+\*----------------------------------------------------------------*/
+
+/**
+ * Mixin to give colors and backgrounds for your panel.
+ *
+ * @param  $text   Colour of the Text
+ * @param  $bg     Colour of the Background
+ */
+@mixin panel( $color ) {
+    color: $color-text;
+    border-left: 10px solid $color;
+    background-color: $grey-lighter;
+
+    a {
+        color: $color;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: darken($color, 10%);
+        } 
+    }
+}
+
+
+
+/* $. Component
+\*----------------------------------------------------------------*/
+
+.panel {
+    @extend %cf;
+    position: relative;
+    display: block;
+    padding: $base;
+
+    @include respond-min($bp2) {
+        padding: $base*1.5;
+    }
+
+    h1,h2,h3,h4 {
+        @extend .u-zero-top;
+        @extend .u-push-bottom\/2;
+    }
+
+    p {
+       @extend .u-zero-bottom; 
+    }
+}
+
+
+
+/* $. Sizing
+\*----------------------------------------------------------------*/
+
+.panel--large {
+    padding: $base*2;
+
+    @include respond-min($bp2) {
+        padding: $base*4;
+    }
+}
+
+.panel--small {
+    padding: ($base/2);
+
+    @include respond-min($bp2) {
+        padding: $base;
+    }
+}
+
+.panel--slim {
+    padding: $base*.75;
+
+    @include respond-min($bp2) {
+        padding: $base*1.5;
+    }
+}
+
+.panel--file {
+    padding-left: $base*4;
+
+    .icon {
+        position: absolute;
+        top: $base;
+        left: $base*1.5;
+    }
+}
+
+
+/* $. Themes
+\*----------------------------------------------------------------*/
+
+.panel--blue   { @include panel($brand-blue); }
+.panel--green   { @include panel($green); }
+.panel--pink    { @include panel($pink); }
+.panel--orange    { @include panel($orange); }

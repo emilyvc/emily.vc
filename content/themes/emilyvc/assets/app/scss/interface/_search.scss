@@ -1,0 +1,87 @@
+/**
+ * Title:
+ *    Search
+ * Description:
+ *    Toggle module used to style the Toggle button for certain interactions
+ *    on the site; namely the Toggle Navigation on smaller screen sizes.
+ * Sections:
+ *    $. Base
+ */
+
+
+
+/* $. Base
+\*----------------------------------------------------------------*/
+
+.search {
+    position: relative;
+    margin: 0;
+
+    input {
+        background-color: $grey-lighter;
+        border: 0;
+        float: left;
+        width: auto; 
+        margin-right: $base/2; 
+        font-weight: $weight-normal;
+    }
+
+    button {
+        padding: 0;
+    }
+}
+
+
+/* $. Modifications
+\*----------------------------------------------------------------*/
+
+
+.search--header {
+    clear: both;
+    display: none;
+    position: absolute;
+    top: $base*4;
+    width: 100%;
+
+    @include respond-min($bp2) {
+        top: -$base*4.8;
+        position: absolute;
+        right: 0;
+        display: block;
+        width: auto;
+    }
+    @include respond-min($bp3) {
+        top: -$base*2.9;
+    }
+
+    .is-active-search & {
+        display: block;
+    }
+
+    button {
+        
+        @include respond-min($bp2) {
+            float: right;
+        }
+    }
+
+    input {
+        width: 80%;
+
+        @include respond-min($bp2) {
+            width: 70%;
+        }
+    }
+}
+
+.search--page {
+    
+    button {
+        margin-left: $base/2;
+    }
+
+    input {
+        width: 80%;
+    }
+}
+

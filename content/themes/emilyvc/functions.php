@@ -1,48 +1,49 @@
 <?php
 
 /**
- * ADMIN SETUP / REFINEMENT
+ *******************************************************************************
+ * Functions
+ *******************************************************************************
  *
- * These clean up our admin and add/change bits here and there
+ * This file is used to change tunnecessaryhe default behavior of WordPress.
+ * The modifications should each be saved within their own partial, housed within
+ * your 'lib' folder.
+ *
+ * - Configuration
+ * - Models
+ * - Controllers
+ * - Utility
+ *
  */
-require_once( 'inc/setup-admin.php' );
+
+
 
 /**
- * THEME SETUP / REFINEMENT
- *
- * These clean up our theme and add/change bits here and there
- */
-require_once( 'inc/setup-theme.php' );
+ * Configuration
+ ******************************************************************************/
+
+require_once( 'lib/config.php' );
+
+
 
 /**
- * ACF Setup
- */
-require_once( 'inc/acf-settings.php' );
+ * Models
+ *****************************************************************************/
+
+require_once( 'lib/models.php' );
+
+
 
 /**
- * SHORTCODES
- *
- * Import any shortcdes to be used at the front end
- */
-require_once( 'inc/shortcodes.php' );
+ * Controllers
+ ******************************************************************************/
+
+require_once( 'lib/controllers.php' );
+
+
 
 /**
- * GRAVITY FORMS
- *
- * Function and configuration for Gravity Forms plugin
- */
-require_once( 'inc/gravity-forms.php' );
+ * Utility
+ ******************************************************************************/
 
-/**
- * CUSTOM POST TYPES
- *
- * Import any custom post types for the theme
- */
-require_once( 'inc/post-types.php' );
-
-/**
- * HELPER FUNCTIONS
- *
- * Generic functions that'll help out
- */
-require_once( 'inc/helper-functions.php' );
+require_once( 'lib/utility.php' );

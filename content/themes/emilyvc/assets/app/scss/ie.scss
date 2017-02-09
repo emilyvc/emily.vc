@@ -1,0 +1,64 @@
+/**
+ * Title:
+ *    IE Stylesheet
+ * Description:
+ *    IE only stylesheet to be used for IE8 and below and will
+ *    compile into: assets/css/styles.css
+ * Sections:
+ *    $. Setup
+ *    $. Styles
+ */
+
+
+
+/* $. Setup
+\*----------------------------------------------------------------*/
+
+$old-ie: true;
+$mqs-up-to: 78em;
+@import "styles";
+
+
+
+/* $. Styles
+\*----------------------------------------------------------------*/
+
+.lt-ie9 .container {
+    width: 960px;
+}
+
+.footer__contact {
+    width: none;
+}
+
+.nav--primary {
+    top: 26px;
+}
+
+.header__strap {
+    top: $base*2.2;
+}
+
+.banner__content {
+    top: $base*10;
+}
+
+.footer__kite {
+    margin-left: $base*3;
+}
+
+.box--large {
+    min-height: $base*15;
+}
+
+.list--box {
+    padding-left: $base/2;
+}
+
+.lt-ie9 .footer__contact span {
+    top: 0;
+}
+
+.footer__contact span {
+    top: 0;
+}
