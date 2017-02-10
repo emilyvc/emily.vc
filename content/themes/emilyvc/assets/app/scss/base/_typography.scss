@@ -85,12 +85,8 @@ h6, .zeta {
 
 .intro {
     font-size: 1.25em;
-    font-weight: $weight-normal;
-    display: block;
-
-    @include respond-min($bp3) {
-        width: 80%;
-    }
+    color: $grey;
+    font-weight: $weight-bold;
 }
 
 .headline {

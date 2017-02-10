@@ -49,6 +49,7 @@ module.exports = function( grunt ) {
                         '<%= dirs.assets_output %>/grunticon/grunticon.loader.js',
                         '<%= dirs.assets_input %>/js/partials/custom-select.js',
                         '<%= dirs.assets_input %>/js/partials/jquery.matchHeight.js',
+                        '<%= dirs.assets_input %>/js/partials/typed.min.js',
                         '<%= dirs.assets_input %>/js/main.js'
                     ],
                     '<%= dirs.assets_output %>/js/head.min.js': [

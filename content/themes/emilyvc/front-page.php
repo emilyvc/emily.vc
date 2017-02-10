@@ -28,7 +28,8 @@ get_header();
             </div>
             <div class="section__intro">
                 <div class="section__container">
-                    <h1 class="section__heading">Hi, I'm a designer</h1>
+                
+                    <h1 class="section__heading">Hi, I'm a <span class="element"></span></h1>
                     <ul class="list list--unset | section__list">
                          <li><a href="">Twitter</a></li>
                          <li><a href="">Dribbble</a></li>
@@ -36,6 +37,11 @@ get_header();
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="section section--large section--main">
+        <div class="container container--small">
+            <p class="intro">Nice to meet you I’m Emily, I currently working at Mixd in Harrogate, UK. I specialise in web design and development but also like to get creative with illustrations and icons. I’ve been in the industry for two years after graduating from Leeds Metropolitan Beckett University.</p>
         </div>
     </div>
 </main>
