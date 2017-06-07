@@ -17,7 +17,8 @@
 %btn {
     display: inline-block;
     padding: ($base/2) $base;
-    border: 0;
+    border: 5px solid $green;
+    font-weight: $weight-bold;
     transition: all .15s ease-out;
     cursor: pointer;
 }
@@ -55,5 +56,6 @@ input[type="submit"],
  */
 
 .btn--primary {
-    @include btn($white, $green);
+    margin-top: $base/2;
+    @include btn($green, transparent, $white, $green);
 }

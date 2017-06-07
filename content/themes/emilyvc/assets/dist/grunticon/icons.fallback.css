@@ -12,9 +12,13 @@
 
 .icon--cross { background-image: url('png/cross.png'); background-repeat: no-repeat; }
 
+.icon--dribbble { background-image: url('png/dribbble.png'); background-repeat: no-repeat; }
+
 .icon--file { background-image: url('png/file.png'); background-repeat: no-repeat; }
 
 .icon--home { background-image: url('png/home.png'); background-repeat: no-repeat; }
+
+.icon--ig { background-image: url('png/ig.png'); background-repeat: no-repeat; }
 
 .icon--logo-01 { background-image: url('png/logo-01.png'); background-repeat: no-repeat; }
 
@@ -37,6 +41,8 @@
 .icon--search { background-image: url('png/search.png'); background-repeat: no-repeat; }
 
 .icon--select { background-image: url('png/select.png'); background-repeat: no-repeat; }
+
+.icon--twitter { background-image: url('png/twitter.png'); background-repeat: no-repeat; }
 
 .icon--warning { background-image: url('png/warning.png'); background-repeat: no-repeat; }
 

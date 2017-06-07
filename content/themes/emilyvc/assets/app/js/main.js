@@ -19,7 +19,7 @@
 
 
 $(".element").typed({
-    strings: ["designer", "developer", "proper northern lass", "emo kid", ],
+    strings: ["designer", "developer", "speaker", "creative", "dreamer", "team player", "northern lass", "food lover", "bit of a geek"],
     contentType: 'text',
     typeSpeed: 60,
     backDelay: 1500,
