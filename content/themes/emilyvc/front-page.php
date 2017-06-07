@@ -39,7 +39,7 @@ get_header();
     <div class="container container--small">
         <div class="section section--center section--main">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/hey-talk.jpg" class="u-align-center  u-push-bottom@2 | u-rounded-circle" alt="">
-            <p class="section__intro gamma">Hey there, I’m Emily a Designer and Front-end Developer currently working <span id="scrollToStart"></span> at <a href="http://www.mixd.co.uk/">Mixd</a>. I like to get my creative on with illustrations and icons while secretly wishing I was still living in the 90's. I’ve been working in the industry for three years and like to chat about my experiences in design, both to students and the web community.</p>
+            <p class="section__intro gamma">Hey there, I’m Emily a Designer and Front-end Developer currently working <span id="scrollToStart"></span> at <a href="http://www.mixd.co.uk/">Mixd</a>. I like to get my creative on by designing anything from eye-catching websites to illustrations and icons, all while secretly wishing I was still living in the 90's. I’ve been working in the industry for three years and I enjoy sharing my experiences in design, both to students and my fellow web heads.</p>
         </div>
     </div>
     <div class="container container--small">
@@ -82,14 +82,14 @@ get_header();
             <div class="section__item">
                 <span class="meta zeta u-push-bottom/2">Forefront Leeds - 18.02.16</span>
                 <h2 class="u-weight-bold">Confessions of a first year web dev</h2>
-                <p>My first speaking event saw me pretty much pouring my heart out to a room full of like minded creatives and tech heads. I touched on issues such as imposter syndrome and finding your place in a large pond.</p>
+                <p>My first speaking event saw me pretty much pouring my heart out to a room full of creatives and techies. I touched on issues such as imposter syndrome and finding your place in a large pond.</p>
                 <a href="https://speakerdeck.com/emilyvc/confessions-of-a-first-year-web-dev" class="btn btn--primary">View the slides</a>
             </div>
         </div>
     </div>
     <div class="section section--footer">
         <div class="container container--small">
-            <p class="alpha u-weight-bold">I love meeting new people, <br> <a href="mailto:hello@emily.vc" class="">get in touch</a> and let’s get creative.</p>
+            <p class="alpha u-weight-bold">I love meeting new people, <br> <a href="mailto:hello@emily.vc" class="">get in touch</a> and let’s get creating.</p>
         </div>
     </div>
 </main>
