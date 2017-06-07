@@ -39,16 +39,16 @@ get_header();
     <div class="container container--small">
         <div class="section section--center section--main">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/hey-talk.jpg" class="u-align-center  u-push-bottom@2 | u-rounded-circle" alt="">
-            <p class="section__intro gamma">Hey there, I’m Emily a Designer and Front-end Developer currently working at <a href="http://www.mixd.co.uk/">Mixd</a>. I like to get my creative on with illustrations and icons while secretly wishing I was still living in the 90's. I’ve been working in the industry for three years and like to chat about my experiences in design both to students and the web community.</p>
+            <p class="section__intro gamma">Hey there, I’m Emily a Designer and Front-end Developer currently working at <a href="http://www.mixd.co.uk/">Mixd</a>. I like to get my creative on with illustrations and icons while secretly wishing I was still living in the 90's. I’ve been working in the industry for three years and like to chat about my experiences in design, both to students and the web community.</p>
         </div>
     </div>
     <div class="container container--small">
         <div class="section section--center section--large">
             <h1 class="u-weight-bold | u-push-bottom">I've worked on a few things...</h1>
             <div class="section__item">
-                <span class="meta zeta u-push-bottom/2">Design | Development</span>
+                <span class="meta zeta u-push-bottom/2">Design | Development | UX Research</span>
                 <h2 class="u-weight-bold">Rossett Acre Primary School</h2>
-                <p>A Mixd project and responsive Wordpress website for Harrogate based Primary School, Rossett Acre. The aim was to bring their school website up to date and create a mobile friendly experience, I also took this chance to brighten their brand by creating a fresher colour palette.</p>
+                <p>Mixd were tasked with creating a responsive Wordpress website for Harrogate based Primary School, Rossett Acre. The aim was to bring their school website up to date and create a mobile friendly experience, I also took this chance to brighten their brand by creating a fresher colour palette.</p>
                 <a href="https://www.rossettacre.n-yorks.sch.uk/" class="btn btn--primary">View the site</a>
             </div>
             <span class="divider"></span>
@@ -76,7 +76,7 @@ get_header();
             <div class="section__item">
                 <span class="meta zeta u-push-bottom/2">Leeds University</span>
                 <h2 class="u-weight-bold">Team Roles lecture</h2>
-                <p>At Mixd I've had the opportunity to give lectures at some of the UK's fantastic Universities, I've given this lecture to Undergraduate and Postgraduate students at Leeds and Teeside University.</p>
+                <p>With Mixd I've had the opportunity to give lectures at some of the UK's fantastic Universities, I've given this lecture to Undergraduate and Postgraduate students at Leeds and Teeside University.</p>
             </div>
             <span class="divider"></span>
             <div class="section__item">
