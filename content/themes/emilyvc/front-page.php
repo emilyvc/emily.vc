@@ -55,7 +55,7 @@ get_header();
             <div class="section__item">
                 <span class="meta zeta u-push-bottom/2">Design | Development</span>
                 <h2 class="u-weight-bold">Spoke Conversation</h2>
-                <p>Spoke are a London based creative agency, when Spoke came to Mixd they were a start-up aiming to create a name for themselves. This was a great opportunity to work with like minded creatives who were as enthusiastic about design as I am.</p>
+                <p>Spoke are a London based creative and communications agency. When Spoke came to Mixd they were a start-up aiming to create a brand for themselves. This was a great opportunity to work with like minded creatives who were as enthusiastic about design as I am.</p>
                 <a href="http://www.wearespoke.co.uk/" class="btn btn--primary">View the site</a>
             </div>
             <span class="divider"></span>
