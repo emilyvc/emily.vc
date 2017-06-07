@@ -49,7 +49,7 @@
 .section__hero {
     display: table;
     width: 100%;
-    min-height: $base*30;
+    min-height: $base*40;
 
     @include respond-min($bp3) {
       min-height: $base*43;  

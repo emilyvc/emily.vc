@@ -34,12 +34,12 @@ get_header();
                 </div>
             </div>
         </div>
-        <a href="" class='section__arrow | icon icon--large icon--arrow'></a>
+        <a href="#scrollToStart" class='section__arrow | icon icon--large icon--arrow'></a>
     </div>
     <div class="container container--small">
         <div class="section section--center section--main">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/hey-talk.jpg" class="u-align-center  u-push-bottom@2 | u-rounded-circle" alt="">
-            <p class="section__intro gamma">Hey there, I’m Emily a Designer and Front-end Developer currently working at <a href="http://www.mixd.co.uk/">Mixd</a>. I like to get my creative on with illustrations and icons while secretly wishing I was still living in the 90's. I’ve been working in the industry for three years and like to chat about my experiences in design, both to students and the web community.</p>
+            <p class="section__intro gamma">Hey there, I’m Emily a Designer and Front-end Developer currently working <span id="scrollToStart"></span> at <a href="http://www.mixd.co.uk/">Mixd</a>. I like to get my creative on with illustrations and icons while secretly wishing I was still living in the 90's. I’ve been working in the industry for three years and like to chat about my experiences in design, both to students and the web community.</p>
         </div>
     </div>
     <div class="container container--small">
