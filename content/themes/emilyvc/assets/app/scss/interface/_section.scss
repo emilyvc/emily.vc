@@ -118,8 +118,8 @@
 }
 
 .section--main {
-    padding-top: $base*2;
-
+    padding-top: $base*4;
+    
      @include respond-min($bp3) {
         padding-bottom: $base;
         padding-top: $base*5;
