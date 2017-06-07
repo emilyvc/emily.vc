@@ -119,10 +119,18 @@
 
 .section--main {
     padding-top: $base*4;
-    
+
      @include respond-min($bp3) {
         padding-bottom: $base;
         padding-top: $base*5;
+    }
+
+    a {
+        border-bottom: 3px solid $green;
+
+        &:hover {
+            border-bottom: 3px solid darken($green, 10%);    
+        }
     }
 }
 
