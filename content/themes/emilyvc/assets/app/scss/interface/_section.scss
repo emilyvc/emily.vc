@@ -46,10 +46,16 @@
 /* $. Elements
 \*----------------------------------------------------------------*/
 
-.section__intro {
+.section__hero {
     display: table;
     width: 100%;
-    min-height: $base*40;
+    min-height: $base*20;
+    @include respond-min($bp1) {
+      min-height: $base*30;  
+    }
+    @include respond-min($bp3) {
+      min-height: $base*43;  
+    }
 }
 
 .section__container {
@@ -66,8 +72,16 @@
 }
 
 .section__heading {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: $weight-bold;
+
+    @include respond-min($bp1) {
+      font-size: 4rem;  
+    }
+
+    @include respond-min($bp3) {
+      font-size: 5rem;  
+    }
 }
 
 .section__list {
@@ -82,29 +96,63 @@
     padding: $base*2;
 }
 
+.section__arrow {
+    position: absolute;
+    bottom: -$base*1.3;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.divider {
+    display: block;
+    border-bottom: 2px solid $pink;
+    margin: $base*3 0;
+}
 /* $. Themes
 \*----------------------------------------------------------------*/
 
 .section--head {
-    background: $pink; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient($pink, lighten($pink, 3%)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient($pink, lighten($pink, 3%)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient($pink, lighten($pink, 3%)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient($pink, lighten($pink, 3%)); /* Standard syntax */
+    background-image: url('../img/background.png');
     color: $white;
+    background-size: contain;
 }
 
 .section--main {
-    padding-top: $base*4;
-    padding-bottom: $base*3;
-    margin: 0 auto;
-    text-align: center;
+    padding-top: $base*2;
+
+     @include respond-min($bp3) {
+        padding-bottom: $base;
+        padding-top: $base*5;
+    }
 }
 
 .section--footer {
     margin-bottom: $base; 
     padding: $base*3;
-    background-color: $pink;
+    background-color: $green;
     color: $white;
     text-align: center;
+
+    a {
+        color: $purple;
+        border-bottom: 5px solid $purple;
+
+        &:hover {
+            color: darken( $purple, 10%);
+            border-bottom: 5px solid darken( $purple, 10%);;
+        }
+    }
+}
+
+.section--center {
+    margin: 0 auto;
+    text-align: center;    
+}
+
+.section--large {
+    padding: $base*2 0;
+
+    @include respond-min($bp3) {
+        padding: $base*4 0;
+    }
 }

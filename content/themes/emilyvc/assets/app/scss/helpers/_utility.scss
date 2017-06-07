@@ -87,6 +87,7 @@
 
 /* Borders */
 .u-rounded  { border-radius: 100%; }
+.u-rounded-circle  { border-radius: 50%; }
 .u-curved   { border-radius: $base; }
 .u-bordered { border: ($base/2) solid $white; }
 

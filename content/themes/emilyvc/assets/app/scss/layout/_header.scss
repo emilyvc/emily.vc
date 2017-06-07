@@ -21,7 +21,6 @@
 .header {
     @extend %cf;
     position: relative;
-    background: $pink;
 }
 
 
@@ -30,10 +29,12 @@
 
 .header__logo {
     float: left;
+    margin-top: $base/2;
 }
 
 .header__mail {
     float: right;
+    margin-left: $base/2; 
 }
 
 .typed-cursor {
