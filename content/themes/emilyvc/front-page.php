@@ -48,21 +48,21 @@ get_header();
             <div class="section__item">
                 <span class="meta zeta u-push-bottom/2">Design | Development</span>
                 <h2 class="u-weight-bold">Rossett Acre Primary School</h2>
-                <p>A Mixd project and responsive Wordpress website for Harrogate based Primary School, Rossett Acre. The aim was to bring their school website up to date and mobile friendly, I also took this chance to brighten their brand by injecting some colour and a fresher design.</p>
+                <p>A Mixd project and responsive Wordpress website for Harrogate based Primary School, Rossett Acre. The aim was to bring their school website up to date and create a mobile friendly experience, I also took this chance to brighten their brand by creating a fresher colour palette.</p>
                 <a href="https://www.rossettacre.n-yorks.sch.uk/" class="btn btn--primary">View the site</a>
             </div>
             <span class="divider"></span>
             <div class="section__item">
                 <span class="meta zeta u-push-bottom/2">Design | Development</span>
                 <h2 class="u-weight-bold">Spoke Conversation</h2>
-                <p>Spoke are a London based creative agency, when Spoke came to Mixd they were a start up aiming to create a brand for themselves. This was a great opportunity to work with like minded creatives who were as enthusiastic about design as I am.</p>
+                <p>Spoke are a London based creative agency, when Spoke came to Mixd they were a start-up aiming to create a name for themselves. This was a great opportunity to work with like minded creatives who were as enthusiastic about design as I am.</p>
                 <a href="http://www.wearespoke.co.uk/" class="btn btn--primary">View the site</a>
             </div>
             <span class="divider"></span>
             <div class="section__item">
                 <span class="meta zeta u-push-bottom/2">Design | Development</span>
                 <h2 class="u-weight-bold">SB Ski</h2>
-                <p>SB Ski are a ski company based in the Alps, they specialise in catered ski holidays through Summer and Winter months. SB Ski wanted help to revitalise their brand and build one website that combines both Winter and Summer website.</p>
+                <p>SB Ski are a ski company based in the Alps, they specialise in catered ski holidays through Summer and Winter months. SB Ski wanted help to revitalise their brand and build one website that combined both their Winter and Summer website.</p>
                 <a href="https://www.sbski.com/" class="btn btn--primary">View the site</a>
             </div>
             <h1 class="u-push-top@2 | u-weight-bold u-push-bottom">I've had some fun speaking opportunities...</h1>
@@ -76,13 +76,13 @@ get_header();
             <div class="section__item">
                 <span class="meta zeta u-push-bottom/2">Leeds University</span>
                 <h2 class="u-weight-bold">Team Roles lecture</h2>
-                <p>At Mixd I've had the opportunity to give lectures at some of the UK's fantastic univerisities, I've given this lecture to undergraduate and postgraduate students at both Leeds and Teeside University.</p>
+                <p>At Mixd I've had the opportunity to give lectures at some of the UK's fantastic Universities, I've given this lecture to Undergraduate and Postgraduate students at Leeds and Teeside University.</p>
             </div>
             <span class="divider"></span>
             <div class="section__item">
                 <span class="meta zeta u-push-bottom/2">Forefront Leeds - 18.02.16</span>
                 <h2 class="u-weight-bold">Confessions of a first year web dev</h2>
-                <p>For my first speaking event saw me pretty much pouring my heart out to a room full of like minded creatives and tech heads. I touched on issues such as imposter syndrome and findind your place in a large pond.</p>
+                <p>My first speaking event saw me pretty much pouring my heart out to a room full of like minded creatives and tech heads. I touched on issues such as imposter syndrome and finding your place in a large pond.</p>
                 <a href="https://speakerdeck.com/emilyvc/confessions-of-a-first-year-web-dev" class="btn btn--primary">View the slides</a>
             </div>
         </div>
